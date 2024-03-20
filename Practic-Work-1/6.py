@@ -6,11 +6,11 @@ def calculate_y(a, b, n, x, m):
   y = power_ab / denominator
   return y
 
-a = float(input("Enter a number a: "))
-b = float(input("Enter a number b: "))
-n = float(input("Enter a number n: "))
-x = float(input("Enter a number x: "))
-m = float(input("Enter a number m: "))
+a = int(input("Enter a number a: "))
+b = int(input("Enter a number b: "))
+n = int(input("Enter a number n: "))
+x = int(input("Enter a number x: "))
+m = int(input("Enter a number m: "))
 
 
 y = calculate_y(a, b, n, x, m)
